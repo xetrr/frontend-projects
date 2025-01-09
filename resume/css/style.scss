@@ -1,0 +1,233 @@
+/*Removing all margin and padding styles*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+:root {
+	--primary-color: #ff7613;
+	--text-color: #727171;
+}
+html {
+	font-size: 10px;
+}
+body {
+	font-family: Inter, sans-serif;
+	background-color: black;
+	color: white;
+}
+
+/* common styles */
+img {
+	width: 100%;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.discription{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.title{
+    position: relative;
+    color: var(--primary-color);
+    font-weight:700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    opacity: 0;
+    left: 50%;
+}
+.show{
+    opacity: 1;
+    left: 0;
+    transition: all 2s ease;
+}
+.container {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	padding: 5rem;
+	background: #070707;
+	grid-template-columns: 1fr 1fr;
+	gap: 4rem;
+}
+
+
+@media only screen and (max-width: 768px){
+    .container{
+        width: 100%;
+        grid-template-columns:  1fr;
+        padding: 3rem;
+        gap: 7rem
+    }
+}
+
+.profile{
+    grid-column: 1/-1;
+    margin-bottom: 2rem;
+}
+// profile
+.profile-container{
+    display: flex;
+    gap: 2rem;
+
+}
+.profileImg img{    
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-discription{
+    margin-top: 2rem;
+}
+.profile-name .firstname{
+    color: white;
+    font-weight: 200;
+    font-size: clamp(2rem, 5vw , 3rem);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: -0.8rem ;
+}
+.profile-name .secname{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: clamp(2.5rem, 10vw, 5rem);
+    text-transform: uppercase;
+    display: block;
+}
+.profile-title{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 768px){
+    .profile-container{
+        flex-direction: column;
+    }
+}
+.group1 .skill-list{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+.referance{
+    margin-top: 3rem;
+    & .firstref,.secref{
+        margin-top: 2rem;
+        & h4{
+            font-size: 1.7rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }        
+    }
+}
+.education{
+    margin-top: 4rem;
+}
+.education .first-course,.second-course{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    & h3{
+        margin-top: 1rem;
+        font-size: 1.5rem; 
+        font-weight: 500;       
+    }
+}
+
+.certification h3{
+    margin-top: 1rem;
+    font-size: 1.6rem; 
+    font-weight: 500;   
+}
+.certification,.awards h3{
+    margin-top: 1rem;
+    font-size: 1.5rem; 
+    font-weight: 500;    
+}
+.EXPERIENCE,.awards h3{
+    margin-top: 1rem;
+    font-size: 1.6rem; 
+    font-weight: 500;    
+}
+.EXPERIENCE .first-exp{
+    margin-bottom: 2rem;
+}
+.certification{
+    margin-top: 5rem;
+}
+.awards{
+    margin-top: 4rem;
+}
+.interest{
+    margin-top: 4rem;
+}
+.interest-items{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+.interest-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.interest-item svg{    
+    width: 2rem;
+    color: var(--text-color);
+}
+.interest-item span{
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+.group3{
+    grid-column: 1/-1;
+    margin-top: 5rem;
+    position: relative;
+}
+.group3::after{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 1px;
+    background-color: var(--text-color);
+    top: 0;
+    left: 0;
+    transform: translate(20%,50%);
+    z-index: 3;
+}
+.footer{
+    margin: 5rem 4rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+}
+.social-items{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;    
+}
+.social-item{
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.social-item svg{    
+    width: 2rem;
+    color: var(--text-color);
+}
+.social-item span{
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}

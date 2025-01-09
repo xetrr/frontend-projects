@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/globalstyles.css">
+    <link rel="stylesheet" href="css/componant.css">
+    <!-- aow script -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- feathericon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="js/master.js" defer></script>
+</head>
+<body>    
+  <button class="scroll-btn"><i data-feather="arrow-up-circle"></i></button>
+    <!-- Nav Section -->
+  <div class="nav">
+    <div class="container">
+      <div class="nav__wrapper">
+        <a href="./index.html" class="logo">
+          <img src="./images/logo.svg" alt="shaif's cuisine">
+        </a>
+        <nav>
+          <div class="nav__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-menu">
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </div>
+          <div class="nav__bgOverlay"></div>
+          <ul class="nav__list">
+            <div class="nav__close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-x">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </div>
+            <div class="nav__list__wrapper">
+
+              <li><a class="nav__link" href="./index.html">Home</a></li>
+              <li><a class="nav__link" href="./menu.html">Menu</a></li>
+              <li><a class="nav__link" href="./about.html">About</a></li>
+              <li><a class="nav__link" href="./contact.html">Contact</a></li>
+              <li><a href="./booking.html" class="btn primary-btn">Book Table</a></li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- End Nav Section -->
+  <!-- start hero section -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero__wrapper">
+        <div class="hero__left" data-aos="fade-left">
+          <div class="hero__left__wrapper">
+            <h1 class="hero__heading">The flavor of tradition</h1>
+            <p>We are a multi-cuisine restaurant offering a wide variety of food experience in both casual and fine dining environment.</p>
+            <div class="hero__btns">
+              <div class="btn explore__menu__btn">Explore Menu</div>
+              <div class="btn hero__book__btn">Book Table</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero__right" data-aos="fade-right">
+          <div class="hero__img__wrapper">
+            <img src="images/heroImg.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end hero section -->
+  <!-- start store section -->
+  <section id="store">
+    <div class="container">
+      <div class="store__info__wrapper" data-aos="fade-up">
+        <div class="store__info__cards">
+          <div class="opening__hour__card store__info__card">
+            <i class="clock" data-feather="clock"></i>
+            <p class="store__card__title">10 AM - 7 PM</p>
+            <p>opening hour</p>
+          </div>
+          <div class="address__card store__info__card">
+            <i class="map-pin" data-feather="map-pin"></i>
+            <p class="address__card __title">Cairo - Egypt</p>
+            <p>Address</p>
+          </div>
+          <div class="call__now__card store__info__card">.
+            <i class="phone-call" data-feather="phone-call"></i>
+            <p class="call__now__title call__now__number">+20 10 6865 6141</p>
+            <p>Call Now</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- end store section -->
+<!-- start top dishes -->
+<section id="top-dishes">
+  <div class="container">
+    <div class="top__dishes__title">Top Dishes</div>
+    <div class="top__dishes__wrapper" data-aos="fade-up">     
+        <div class="TD__item">
+          <div class="TD__item__img">
+            <img src="images/food-1.png" alt="vigetables">
+          </div>
+          <div class="TD__item__info">
+            <div class="dish__name">Vegan Salad bowl</div>
+            <div class="dish__price"><span>$</span>12</div>
+            <div class="item__stars"><img src="images/3star.png" alt=""></div>
+          </div>
+        </div>
+        <div class="TD__item" >
+          <div class="TD__item__img">
+            <img src="images/food-2.png" alt="vigetables">
+          </div>
+          <div class="TD__item__info">
+            <div class="dish__name">Vegan Pesto Zoodles</div>
+            <div class="dish__price"><span>$</span>12</div>
+            <div class="item__stars"><img src="images/3star.png" alt=""></div>
+          </div>
+        </div>
+        <div class="TD__item" >
+          <div class="TD__item__img">
+            <img src="images/food-7.png" alt="vigetables">
+          </div>
+          <div class="TD__item__info">
+            <div class="dish__name">Hot Green Bowl</div>
+            <div class="dish__price"><span>$</span>12</div>
+            <div class="item__stars"><img src="images/3star.png" alt=""></div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- end top dishes -->
+<!-- start discount section -->
+<section id="discount">
+  <div class="container">
+    <div class="discount__wrapper" data-aos="fade-up">
+      <div class="discount__imgs">
+        <div class="discount__img1"><img src="images/food-4.png" alt=""></div>
+        <div class="discount__img2"><img src="images/food-5.png" alt=""></div>
+        <div class="discount__img3"><img src="images/food-3.png" alt=""></div>
+      </div>
+      <div class="discount__info">
+        <div class="discount__off">20% OFF</div>
+        <h2>Demo Dish For Discount</h2>
+        <div class="discount__price"><span>$45 </span>  $35</div>
+        <img src="images/3star.png" alt="">
+        <a href="./booking.html" class="btn primary-btn">Book Table</a>        
+      </div>      
+    </div>
+  </div>
+</section>
+<!-- end discount section -->
+<!-- start events media -->
+<section id="eventsMedia">
+  <div class="container">
+    <div class="eventsMedia__wrapper" data-aos="fade-up">
+      <div class="vedeo__media"><img src="images/eventsMedia1.png" alt=""></div>
+      <div class="img__media"><img src="images/eventsMedia2.png" alt=""></div>
+    </div>
+  </div>
+</section>
+<!-- end events media -->
+<!-- start whyUs section -->
+<section id="whyUs">
+  <div class="container">
+    <div class="whyUs__wrapper">
+      <div class="whyus__info" data-aos="fade-left">
+        <h2>Why Choose Our Food</h2>
+        <p>Quality of Service, Food, Ambiance, and Value of Money are the primary elements for choosing a restaurant. Shaif's Cuisine is one of the most exquisite fine-dinning restaurant in Egypt cities with a captivating view of GEC Hills, perfect ambiance, and scrumptious food.</p>
+      </div>
+      <div class="whyus__imgs" data-aos="fade-right">
+        <div class="whyus__items" >
+          <div class="whyus__item">
+            <div class="whyus__item__img"><img src="images/whyUs-icon1.svg" alt=""></div>
+            <h3>Quality Food</h3>
+          </div>
+          <div class="whyus__item">
+            <div class="whyus__item__img"><img src="images/whyUs-icon2.svg" alt=""></div>
+            <h3>Classical taste</h3>
+          </div>
+          <div class="whyus__item">
+            <div class="whyus__item__img"><img src="images/whyUs-icon3.svg" alt=""></div>
+            <h3>Skilled chef</h3>
+          </div>
+          <div class="whyus__item">
+            <div class="whyus__item__img"><img src="images/whyUs-icon4.svg" alt=""></div>
+            <h3>Best service</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end whyUs section -->
+<!-- start testimonials -->
+<section id="testimonials">
+  <div class="container">
+  <h2 data-aos="fade-up">What Our Customers Say</h2>      
+  <div class="testimonials__wrapper" data-aos="fade-up">
+      <div class="testi__item">
+        <div class="test__item_img"><img src="images/food-1.png" alt=""></div>
+        <div class="testi__item__info">
+          <div class="testi__name">Mohamed Ali</div>
+          <div class="testi__rate"><img src="images/3star.png" alt=""></div>
+          <p>"from start to finish, lovely experience. Hostess very pleasant, wait staff john was wonderful and attentive, food plentiful and delicious, desserts out of this world"</p>
+        </div>
+      </div>
+      <div class="testi__item">
+        <div class="test__item_img"><img src="images/food-1.png" alt=""></div>
+        <div class="testi__item__info">
+          <div class="testi__name">Mohamed Ali</div>
+          <div class="testi__rate"><img src="images/3star.png" alt=""></div>
+          <p>"from start to finish, lovely experience. Hostess very pleasant, wait staff john was wonderful and attentive, food plentiful and delicious, desserts out of this world"</p>
+        </div>
+      </div>
+      <div class="testi__item">
+        <div class="test__item_img"><img src="images/food-1.png" alt=""></div>
+        <div class="testi__item__info">
+          <div class="testi__name">Mohamed Ali</div>
+          <div class="testi__rate"><img src="images/3star.png" alt=""></div>
+          <p>"from start to finish, lovely experience. Hostess very pleasant, wait staff john was wonderful and attentive, food plentiful and delicious, desserts out of this world"</p>
+        </div>
+      </div>
+      <div class="testi__item">
+        <div class="test__item_img"><img src="images/food-1.png" alt=""></div>
+        <div class="testi__item__info">
+          <div class="testi__name">Mohamed Ali</div>
+          <div class="testi__rate"><img src="images/3star.png" alt=""></div>
+          <p>"from start to finish, lovely experience. Hostess very pleasant, wait staff john was wonderful and attentive, food plentiful and delicious, desserts out of this world"</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end testimonials -->
+<!-- start footer -->
+<footer>
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="colunm1">
+                <div class="footer__logo">
+                    <a href="./index.html" class="logo">
+                        <img src="./images/logo.svg" alt="shaif's cuisine">
+                      </a>
+                </div>
+                <p class="footer__desc">Fresh and delicious traditional Bangladeshi food to delight the whole family.</p>
+                <h2 class="followUs">Follow us</h2>
+                <div class="social__icons">
+                    <a href="#"><i data-feather="facebook"></i></a>
+                    <a href="#"><i data-feather="instagram"></i></a>
+                    <a href="#"><i data-feather="twitter"></i></a>
+                </div>
+            </div>
+            <div class="colunm2">
+                <h2 class="footer__title">Links</h2>
+                <ul class="links__list">
+                    
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>                    
+                </ul>
+            </div>
+            <div class="colunm3">
+                <h2 class="footer__title">Support</h2>
+                <ul class="support__list">
+                    <li> <a href="./contact.html">Contact</a></li>
+                    <li> <a href="#">Support Center</a></li>
+                    <li> <a href="#">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="colunm4">
+                <h2 class="footer__title">Contact</h2>
+                <ul class="contact__list">
+                    <li>+20 1234 56789</li>
+                    <li>gmail@gmail.com</li>
+                    <li><a href="#"><i data-feather="github"></i></a> /Neo-DS</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end footer -->
+<!-- feather-icons -->
+    <script>
+        feather.replace()
+      </script>
+    <!-- AOS script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+</html>

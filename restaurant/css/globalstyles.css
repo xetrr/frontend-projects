@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
+
+html{
+    font-size: 10px;
+    overflow-x: hidden;
+}
+
+:root{
+    --green-1: #26643b;
+	--green-2: #a2de96;
+	--lightGreen-1: #d6e5d8;
+	--lightGreen-2: #f5fcf4;
+	--black-1: #3b413a;
+	--black-2: #3f3c3c;
+	--black-3: #5b6359;
+	--white-1: #e8e8e8;
+}
+body{
+    background-color: var(--lightGreen-2);
+    overflow-x: hidden;
+}
+section{
+    padding: 100px 0;
+}
+
+@media only screen and (max-width: 768px){
+    section{
+        padding: 50px 0;
+    }
+}
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+h1,h2,h3,h4{
+    font-family: 'poppins','sans-serif';
+}
+p{
+    font-family: 'raleway', 'sens-serif';
+    font-weight: 400;
+    line-height: 1.4rem;
+    font-size: 1.8rem;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+/* global button style */
+.btn{
+    color: var(--green-1);
+    font-family: 'poppins';
+    font-weight: 500;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    padding: 1.2rem 2rem;
+}
+
+/* primary btn style */
+.primary-btn{
+    color: var(--white-1);
+    background: var(--green-1);    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

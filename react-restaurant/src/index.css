@@ -1,0 +1,148 @@
+.font{
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+}
+.color-body{
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+.brand-color{
+    color: rgb(219, 137, 14);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    padding-inline: 8px;
+}
+.brand-color:hover{
+    color: #fff;
+    background-color: rgb(219, 137, 14);
+}
+.dates-count{
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.img-avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.title{ 
+    position: relative;
+    color: #224f61;
+    font-family: 'Cairo', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 64px;
+}
+
+.title::after{
+    content:'';
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    background-color: rgb(219, 137, 14);
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+}
+.color-body {
+    background-color: #F8F8F8;
+    height: 100vh;
+  }
+  .font {
+    font-family: "Cairo", sans-serif;
+  }
+  .title {
+    color: #224F61;
+    font-family: Cairo;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 64px;
+  }
+  .underline {
+    height: 1px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #B45B35;
+  }
+  .btnnn {
+    color: black;
+    font-family: Cairo;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding: 7px 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+  .btnnn:hover {
+    color: white;
+    font-family: Cairo;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+    border: none;
+    background-color: #B45B35;
+  }
+  .img-item {
+    height: 152px;
+    max-width: 150px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  .item-description {
+    color: #8C8C8C;
+    font-family: Cairo;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  .item-title {
+    color: #555555;
+    font-family: Cairo;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  .card-color {
+    background-color: #F8F8F8;
+  }
+  .item-price {
+    color: #B45B35;
+    font-family: Cairo;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  .btn-search {
+    color: #B45B35;
+    border-radius: 3px solid #B45B35;
+    border-radius: 8px;
+    background-color: white;
+  }
+  .btn-search:hover {
+    color: white;
+    border-radius: 3px solid white;
+    background-color: #B45B35;
+    border-radius: 8px;
+  }
+  .brand-color {
+    color: #B45B35;
+  }
