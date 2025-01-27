@@ -1,0 +1,36 @@
+.main {
+  width: 60%;
+  box-shadow: 1px 1px 10px silver;
+  margin-top: 45px;
+  padding: 10px;
+  img {
+    margin-bottom: 20px;
+  }
+  input {
+    margin-bottom: 10px;
+    width: 60%;
+    padding: 5px;
+  }
+}
+button {
+  border: none;
+  padding: 10px;
+  width: 20%;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: rgb(99, 226, 99);
+  cursor: pointer;
+}
+label {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: rgb(59, 112, 226);
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+}
